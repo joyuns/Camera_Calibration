@@ -2,19 +2,13 @@
 ![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=250&section=header&text=Camera&nbsp;Calibration&fontSize=80)
 
 # Introducing Repository
--This repository contain Distance correction with chessboard images
+-This repository contain distance correction with chessboard images
 
 # How To Operaite
--Load the image.<br/>
--Convert the image to grayscale.<br/>
--Apply median blur to reduce noise.<br/>
--Detect edges using adaptive thresholding.<br/>
--Convert the image to color.<br/>
--Combine the color image with the edges mask.<br/>
--Display the cartoon image.<br/>
-
-# Discussion of Limitations
--The program is that it is difficult to turn various images into cartoon styles.The more complex the details and colors of the image are, the more inconsistent the algorithm's performance becomes. There is also a limit to implementing the specific cartoon style that the user wants. The current program needs to be developed a little more because it goes through a relatively simple process.<br/>
+-Camera_Calibration<br/>
+이 코드는 비디오에서 체스보드 패턴을 이용해 이미지를 선택하고, 이를 사용하여 카메라를 캘리브레이션하는 과정을 구현했다.<br/>
+-Distortion_Correction<br/>
+이 코드는 비디오 파일에서 렌즈 왜곡을 보정하는 과정을 구현하며, 비디오 열기, 왜곡 보정 준비, 비디오 처리, 프레임 표시, 키 이벤트 처리, 자원 해제 및 종료의 단계로 구성되어 있다. <br/>
 
 # Demonstration
 -카메라 캘리브레이션 과정<br/>

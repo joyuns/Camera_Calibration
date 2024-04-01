@@ -1,6 +1,6 @@
 # Camera_Calibration
 
-![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=250&section=header&text=Camera&nbsp;to&nbsp;Calibration&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=250&section=header&text=Camera&nbsp;to&nbsp;Calibration&fontSize=70)
 
 # Introducing Repository
 -This repository convert photo to cartoon style using OpenCV.
